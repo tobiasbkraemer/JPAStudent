@@ -26,8 +26,7 @@ class StudentRepositoryTest {
 
     @Test
     void testOneStudent() {
-
         List<Student> lst = studentRepository.findAll();
-        assertEquals(11,lst.size());
+        assertEquals(1,lst.size());
     }
 }
